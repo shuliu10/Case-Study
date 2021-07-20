@@ -28,7 +28,7 @@ Another disadvantage is that SGD is sensitive to feature scaling. Any inaccurate
 Demonstration
 To demonstrate how the SGD classifier works for our case, I created a dataset. It has a similar structure to the actual dataset, with the target and selected features discussed above and 1,000 events. The techniques I used include data standardization, train-test split, cross-validation, grid search, SGD classification with both hinge and log loss function, model performance measurement with F1 score, and model prediction for a new event.
 Summary
-the article identified some dataset problems and provided solutions to deal with them.  The issues identified include data imbalance, sample size, missing data, the different data types, and scales.
+The article identified some dataset problems and provided solutions to deal with them.  The issues identified include data imbalance, sample size, missing data, the different data types, and scales.
 The app_category, interaction_with_app, ad_category, and click are selected logically as the features for our study. To verify our logical considerations, we should perform hypothesis testing if our dataset is not highly imbalanced on the sub_app and sub_ad levels. 
 Stochastic Gradient Descent (SGD) is chosen as our classifier because It is highly efficient, straightforward to implement, and there are many opportunities for code tuning. We can use the grid search function to answer its requirement for hyperparameter tuning.
 Performing the SGD classification in our case is demonstrated on a dataset with a similar structure to the actual dataset. The demonstration uses many techniques in model development, evaluation, and prediction.
