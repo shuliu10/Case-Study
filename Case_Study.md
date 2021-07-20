@@ -20,7 +20,7 @@ To verify our logical considerations, we should perform hypothesis testing if ou
 The model we will develop will show the effect of the selected features by their coefficients. If we choose L1 regularization (lasso) in the model development, we can shrink the coefficients of less important features to zero.
 Choosing model 
 Binary logistic regression is the most suitable for our task. Among many models, The model I would try first is Stochastic Gradient Descent (SGD) because it is a simple and efficient approach to fitting linear classifiers under convex loss functions such as Support Vector Machines and Logistic regression. It is highly efficient and straightforward to implement, and there are many opportunities for code tuning.
-SGD allows us to perform different classifications models by using different loss parameters. For example, the "log" loss parameter gives logistic regression, and the "hinge" loss parameter gives a linear SVM.
+SGD allows us to perform different classification models by using different loss parameters. For example, the "log" loss parameter gives logistic regression, and the "hinge" loss parameter gives a linear SVM.
 As discussed above, SGD has the "balanced" mode in calss_weight for us to use to deal with our imbalanced features. 
 SGD, however, requires tuning many hyperparameters such as loss, penalty, alpha, and l1_ratio. This requirement is a disadvantage for inexperienced data scientists. However, experienced scientists can use the grid search function to find a set of optimal features easily.
 Another disadvantage is that SGD is sensitive to feature scaling. Any inaccurate data scaling could impact your model performance.
