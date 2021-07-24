@@ -1,2 +1,2 @@
-# Case-Study
+# Case Study
 Gender Identification
