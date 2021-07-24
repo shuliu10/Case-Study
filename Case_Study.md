@@ -1,6 +1,12 @@
 Case Study: Gender Prediction
+
+
 Shu Liu
+
+
 July 19, 2021
+
+
 Introduction
 Internet advertisers have provided us with a data set that contains eight columns. The name of the columns are user_id, app_id, device_name, app_categorty, interaction_with_app, ad_category, click, and gender. There are 3700 rows in the table, and each row represents an event. The advertisers want to target within apps, and they want us to develop a model that can predict device users' gender (male/female). The advertisers have recommended we take gender as the target, and take device_name, app_category, interaction_with_app, ad_category, and click as features. 
 Discussion
